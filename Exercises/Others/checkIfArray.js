@@ -14,6 +14,7 @@ class CheckArray {
     }
   }
 
+
   prototypeCheck(array) {
     if (Object.prototype.toString.call(array) === "[object Array]") {
       return true;
@@ -38,7 +39,6 @@ function checkArray(value) {
     (value.length === 0 || (value.length > 0 && value.length - 1 in value))
   );
 }
-
 // First, we ask if the value is truthy.
 // We do this to reject null and other falsy values.
 // Second, we ask if the typeof value is 'object'.
