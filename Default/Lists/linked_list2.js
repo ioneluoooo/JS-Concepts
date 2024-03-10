@@ -91,7 +91,7 @@ class LinkedList {
 
                 //remove the element
                 prev.next = curr.next
-                // dapustim prev = 20, curr = 30
+                // for instance prev = 20, curr = 30
                 // curr.next = 40
                 // so prev.next = 40, skipping the current node that is, curr = 30
             }
